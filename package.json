@@ -1,5 +1,5 @@
 {
-  "name": "Exton-MD",
+  "name": "Kizuna-MD",
   "version": "1.0.0",
   "description": "",
   "main": "flash.js",
@@ -12,12 +12,12 @@
   "keywords": [
     "bot",
     "Baileys",
-    "Exton-Md",
+    "Kizuna-Md",
     "whatsapp",
     "whatsapp-bot",
-    "Extontony"
+    "Savage"
   ],
-  "author": " Exton",
+  "author": "Savage",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
