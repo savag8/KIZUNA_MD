@@ -1,14 +1,14 @@
-# ( =========> • Exton MD • <========= )
+# ( =========> • KIZUNA MD • <========= )
 
 <p align="center">
-  <a href="https://github.com/D4X-UMAR">
-    <img alt="Exton-MD" height="400" src="https://i.postimg.cc/1XQq5DzP/pictures-white949544-GOjsnnsnznznzbzbbzbz7777-ExtonLD-PIC.png">
+  <a href="https://github.com/savag8">
+    <img alt="Kizuna-MD" height="400" src="https://telegra.ph/file/2da3acfa563c487180dfd.jpg">
   </a>
 </p>
 
 ***
 
-# *_JUST • [FORK](https://dashboard.heroku.com/new?template=https://github.com/Extontony/Exton-MD/fork) • THE Exton-MD REPO_*
+# *_JUST • [FORK](https://dashboard.heroku.com/new?template=https://github.com/savag8/KIZUNA_MD/fork) • KIZUNA-MD REPO_*
 
 ***
 
@@ -40,18 +40,18 @@
 
 ***
 
-# *_FOLLOW • [WHATSAPP CHANNEL](https://whatsapp.com/channel/0029VaVCDGH0G0XbD73uZ42W) •_*
+# *_FOLLOW • [WHATSAPP CHANNEL](https://whatsapp.com/channel/0029VaXUSu7LtOjGyZngjH1K) •_*
 
 ***
 
-# *_JOIN • [WHATSAPP GROUP](https://whatsapp.com/channel/0029VaVCDGH0G0XbD73uZ42W) •_*
+# *_JOIN • [WHATSAPP GROUP](https://chat.whatsapp.com/Hei08sOw2F4CAFiIEhf6CD) •_*
 
 ***
 
 # *_DEVELOPER_*
-<a href="https://github.com/Extontony"><img src="https://i.ibb.co/wspzc9t/IMG-20240328-WA0000.jpg" width="250" height="250" alt="Exton"/></a>
-# ( => • [Exton](https://wa.me/263781206152) • <= )
+<a href="https://github.com/savag8"><img src="https://telegra.ph/file/60d5b0471e10ef8b83b70.jpg" width="250" height="250" alt="Savage"/></a>
+# ( => • [Savage](https://wa.me/263780858655) • <= )
 
 ***
 
-# THANKS TO • [WASI](https://github.com/Extontony) 
+# THANKS TO • [Exton](https://github.com/Extontony) 
