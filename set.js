@@ -7,18 +7,18 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || 'Exton-MD-WA-BOT;;;=>',
+module.exports = { session: process.env.SESSION_ID || 'Kizuna-MD-WA-BOT;;;=>',
     PREFIXE: process.env.PREFIX || "+",
-    OWNER_NAME: process.env.OWNER_NAME || "Exton",
-    NUMERO_OWNER : process.env.OWNER_NUMBER || "263781206152", 
+    OWNER_NAME: process.env.OWNER_NAME || "Savage",
+    NUMERO_OWNER : process.env.OWNER_NUMBER || "263780858655", 
              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
 AUTOREAD_MESSAGES: process.env.AUTO_READ_MESSAGES || "yes",
 CHATBOT: process.env.CHAT_BOT || "yes",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
-    BOT : process.env.BOT_NAME || 'Exton-MD',
+    BOT : process.env.BOT_NAME || 'KIZUNA-MD',
     OPENAI_API_KEY : process.env.OPENAI_API_KEY || '',
-    URL : process.env.BOT_MENU_LINKS || 'https://static.animecorner.me/2023/08/op2.jpg',
+    URL : process.env.BOT_MENU_LINKS || 'https://telegra.ph/file/60d5b0471e10ef8b83b70.jpg',
     MODE: process.env.PUBLIC_MODE || "no",
     PM_PERMIT: process.env.PM_PERMIT || 'no',
     HEROKU_APP_NAME : process.env.HEROKU_APP_NAME,
