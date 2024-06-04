@@ -1,76 +1,75 @@
 {
-  "name":"Exton-MD BY Exton",
-  "description":"Lazmiii•) Ap yeh Box soch samajh kar fill karna Q k ap phir inko WhatsApp per change nahi kar pae ge Ok",
+  "name":"Kizuna-MD",
+  "description":"A bot made by Savage to make your app amazing😜",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://i.postimg.cc/1XQq5DzP/pictures-white949544-GOjsnnsnznznzbzbbzbz7777-ExtonLD-PIC.png",
-  "repository":"https://github.com/Extontony/Exton-MD",
+  "logo":"https://telegra.ph/file/60d5b0471e10ef8b83b70.jpg",
+  "repository":"https://github.com/savag8/KIZUNA_MD",
   "succes_url":"/",
   "stack":"container",
      "env":{
     "PREFIX":
     {
-      "description":"Apne bot ke prefix ke lie koi bhy symbol daalo jese . , ! ? Sirf ek symbol likho",
+      "description":"a switch to make the bot start. You can use these: . , ! ?",
       "value":".",
       "required":true
     },
     "AUTO_READ_MESSAGES":
     {
-      "description":"Agar ap chahte hai ke apka bot apke contacts ke msgs seen kare to |yes| Likho agar nahi chahte to |no| Likho", 
+      "description":"this allows bot to read messages that you receive. You can either choose yes or no", 
       "value":"no", 
       "required":true 
     }, 
     "AUTO_READ_STATUS":
     {
-      "description":"Agar ap chahte hai apka bot apke contacts ke statues Auto Seen kare to Likho |yes| Agar chahte ho ke Auto Seen Naa kre to |no| Likho",
+      "description":"this allows bot to view statuses, yes or no?",
       "value":"yes",
       "required":true
     }, "AUTO_DOWNLOAD_STATUS":
     {
-      "description":"Agar ap chahte hai apka bot apke friends ke status Save ker ke apke inbox me send kre to Likho |yes| Agar Chahte ho Ke Send Naa kare to Likho |no|",
+      "description":"after bot views status, it automatically saves it. Yes or no?",
       "value":"no",
       "required":true
     }
     ,
      "PM_PERMIT" :
      {
-      "description":"Agar ap chahte ho ke apke inbox me har koi apka bot use kare to Likho |no| Agar Nahi chahte to Likho |no|",
+      "description":"this restricts people from using bot in inbox without your permission. Yes or no?",
       "value":"no",
       "required":true
     }
     ,
     "BOT_NAME" : {
 
-      "description":"Ap apne bot ka name Likho",
-      "value":"Exton-MD",
+      "description":"You write the name of your bot",
+      "value":"Kizuna-MD",
       "required":true
 
     } ,
      "BOT_MENU_LINKS" : {
 
-      "description":"Bot ke menu ki pic ka Link Likho",
-      "value":"https://i.postimg.cc/1XQq5DzP/pictures-white949544-GOjsnnsnznznzbzbbzbz7777-ExtonLD-PIC.png",
+      "description":"Write a link to the menu of bot",
+      "value":https://telegra.ph/file/2da3acfa563c487180dfd.jpg",
       "required":false
 
      },
     "PUBLIC_MODE":
     {
-      "description":"Agar ap chahte hai apka bot har koi use kare to likho |yes| agar ap khud use karna chahte hai to Likho |no| Is se koi bhi apka bot use nahi kar pae ga",
+      "description":"If you want your bot to be used by everyone, write it.Yes| If you want to do it yourself, write it down.No| No one will be able to use your bot",
       "value":"yes",
       "required":true
     }
         ,
     "HEROKU_API_KEY": {
-    "description": "Apke heroku ke accounts ki API KEY Likho",
+    "description": "Write the API for your Heroku accounts",
      "required":true
     },
    "HEROKU_APP_NAME": {
-    "description": "Jo ap ne oper 1st me name likha hai wo copy ker ke yaha paste karo",
+    "description": "Copy the name that you have written in Opar 1st and paste it here.",
      "required" :true
     }  
           ,
-    "SESSION_ID":
-    {
-      "description":"Bot ki session id jo apko whatsapp per mili wo yaha likhe",   
+    "SESSION_ID": {
+      "description":"The session ID of the bot which you got on WhatsApp should be written here.",   
       "value":"",
       "required": true
 
@@ -78,38 +77,37 @@
     "OWNER_NAME":
     {
 
-    "desc": "Ap apna name likho",
+    "desc": "Your name here",
     "required": true,
-    "value": "Exton"
+    "value": "Savage"
   },
     "OWNER_NUMBER":
   {
 
-    "desc": "Ap apna number likho |+| nahi lagana ese likho 923xxxxx",
+    "desc": "Write down your number without the +",
     "required":true,
-    "value": "263781206152"
+    "value": "263780858655"
   },
     "WARN_COUNT":
   {
-    "desc": "Ap kisi ko kitny warnins dena chahte hai phir jese hy yeh warnings poori hogi wo banda block ho jae ga ya group me hai to remove ho jae ga",
+    "desc": "How many warnings do you want to give to someone, then as soon as this warning is over, that person will be blocked or if he is in the group then it will be removed.",
     "required": true,
-    "value": "2"
+    "value": "3"
   },
     "CHAT_BOT":
     {
-      "desc": "Ap apne msg ko mention ker ke kuch bhi likho ge to reply ae ga uske lie |yes| Likho agar chahte hai ke reply Naa ae to |no| Likho",
+      "desc": "If you mention your MSG and write something, then the reply will come for that.Yes| Write if you want to not reply.No| Write",
       "required": true, 
        "value": "no" 
     }, 
   "STARTING_BOT_MESSAGE":
   {
-    "description": "Apke inbox me bot ka connected msg ata hai agar ap chahte ho yeh msg ae to |yes| Likho agar chahte ho ke msg Naa ae to |no| Likho",
+    "description": "Bot's connected MSG comes in your inbox if you want this message to come.Yes| Write if you want MSG not to come.No| Write",
     "required": true,
     "value": "no"
   },
   "PRESENCE":{
-    "description":"Yaha per |online| Likho always Online Show hone ke lie or |typing| likho ge to koi msg kre ga apko oper show hoga is typing...  or chahte ho ke is recordin...  show ho to uske lie |recording| Likho or agar chahte hai esa kuch bhi na ho to box khali chor do",
-    "value":"",
+    "description":"your presence on WhatsApp. Available or not?"
     "required": false
   }  
   },
